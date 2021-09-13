@@ -27,43 +27,31 @@
 * Currency bonds, when printed on textile or rag paper, can be counterfeited by any adversary party if it gets access to unlimited computational sources. 
 * The quantum analog of the same is physically impossible to copy due to the **“No Cloning Theorem”**[1].
 * Wiesner’s quantum money [2,3] has led to development of a quantum key distribution scheme, known as BB84 protocol [4], to send messages with perfect security.
-* Wiesner’s original scheme was later broken [5–7]. However, Aaronson showed its existence by proposing a quantum copy protection scheme [8], which again was
-broken by Lutomirski et al. [9]. New versions were then introduced by Farhi et al. [10] and Aaronson et al. [11]. Subsequently, a scheme of quantum coins was developed by Mosca and Stebila [12], based on blind quantum computation requiring a communicating bank for verification purposes.
-
-The idea of quantum cheques was put forward by Moulick and Panigrahi [13],
-which utilized quantum states to fabricate currency bonds. The proposed scheme was
-perfectly secure against any no-signalling adversary based on fundamental laws of
-quantum information. The quantum cheque involved a trusted bank providing every
-account holder with a valid quantum cheque book to issue cheques that can be verified
-by the main bank or any of its acting branches.
-
-Establishing long distance quantum communication networks [14,15] is an active
-area of research, where a quantum cheque scheme can be potentially used as an alternate for e-Payment Gateways in the field of e-commerce. It can also be considered
-as the quantum analog of Electronic Data Interchange (EDI) [16]. In this scheme,
-efficient transactions can be performed by storing quantum states in computers or
-smart cards, equipped with quantum memories [17,18]. Without quantum memory,
-the transactions can be streamed over the quantum internet [19,20]. The protocol can
-run in real time, where the account holder physically goes to the Bank, collects a quantum cheque book and then prepares a quantum cheque and issues to a vendor. The
-vendor then communicates the quantum cheque to the Bank and withdraws money
-after a successful verification of the cheque. Recently, practical unforgeable quantum
-money has found experimental verification [21,22]. The experimental demonstration
-therefore paves the way for designing of physical devices for this purpose.
-
-Here, we make use of the free web-based interface, IBM Quantum Experience (IBM
-QE) [23], to experimentally demonstrate the quantum cheque transaction [13]. The
-platform uses Python Application Programming Interface (API) and Software Development Kit (SDK) [24], which has enabled easy writing of codes and running them
-on quantum processors. With fast access to the results of an experiment, the IBM QE
-users can communicate and discuss results with IBM community. It permits a user
-easy connectivity to this cloud [25] based 5-qubit quantum computer, using which a
-number of quantum algorithms [26–29] and quantum computational tasks [30] have
-already been performed. Test of Leggett–Garg [31] and Mermin inequality [32], quantum teleportation of an unknown single qubit [33] and two-qubit state [34] have been
-reported. Entanglement-assisted invariance [35], non-Abelian braiding of surface code
-defects [36], and entropic uncertainty and measurement reversibility [37] have been
-illustrated. A comparison between two architectures for quantum computation [38]
-and nondestructive discrimination of Bell states [39] have also been experimentally
-performed. In this note, we explicate experimental realization of quantum cheque
-transaction by implementing the scheme on IBM interface and find the accuracy of
-quantum state preparation through quantum state tomography
+* Wiesner’s original scheme was later broken [5–7].
+* However, Aaronson showed its existence by proposing a quantum copy protection scheme [8], which again was broken by Lutomirski et al. [9].
+* New versions were then introduced by Farhi et al. [10] and Aaronson et al. [11].
+* Subsequently, a scheme of quantum coins was developed by Mosca and Stebila [12], based on blind quantum computation requiring a communicating bank for verification purposes.
+* The idea of quantum cheques was put forward by Moulick and Panigrahi [13],which utilized quantum states to fabricate currency bonds.
+* The proposed scheme was perfectly secure against any no-signalling adversary based on fundamental laws of quantum information.
+* The quantum cheque involved a trusted bank providing every account holder with a valid quantum cheque book to issue cheques that can be verified by the main bank or any of its acting branches.
+* Establishing long distance quantum communication networks [14,15] is an active area of research, where a quantum cheque scheme can be potentially used as an alternate for e-Payment Gateways in the field of e-commerce. It can also be considered as the quantum analog of Electronic Data Interchange (EDI) [16].
+* In this scheme, efficient transactions can be performed by storing quantum states in computers or smart cards, equipped with quantum memories [17,18].
+* Without quantum memory, the transactions can be streamed over the quantum internet [19,20].
+* The protocol can run in real time, where the account holder physically goes to the Bank, collects a quantum cheque book and then prepares a quantum cheque and issues to a vendor.
+* The vendor then communicates the quantum cheque to the Bank and withdraws money after a successful verification of the cheque.
+* Recently, practical unforgeable quantum money has found experimental verification [21,22]. 
+* The experimental demonstration therefore paves the way for designing of physical devices for this purpose.
+* Here, we make use of the free web-based interface, IBM Quantum Experience (IBM QE) [23], to experimentally demonstrate the quantum cheque transaction [13].
+* The platform uses Python Application Programming Interface (API) and Software Development Kit (SDK) [24], which has enabled easy writing of codes and running them
+on quantum processors.
+* With fast access to the results of an experiment, the IBM QE users can communicate and discuss results with IBM community.
+* It permits a user easy connectivity to this cloud [25] based 5-qubit quantum computer, using which a number of quantum algorithms [26–29] and quantum computational tasks [30] have already been performed. 
+* Test of Leggett–Garg [31] and Mermin inequality [32], quantum teleportation of an unknown single qubit [33] and two-qubit state [34] have been reported. Entanglement-assisted invariance [35], non-Abelian braiding of surface code defects [36], and entropic uncertainty and measurement reversibility [37] have been
+illustrated.
+* A comparison between two architectures for quantum computation [38] and nondestructive discrimination of Bell states [39] have also been experimentally
+performed.
+* In this note, we explicate experimental realization of quantum cheque transaction by implementing the scheme on IBM interface and find the accuracy of
+quantum state preparation through quantum state tomography.
 
 ## References
 
